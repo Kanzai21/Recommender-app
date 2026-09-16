@@ -1,1 +1,3 @@
-# Recommender-app
+A content-based recommendation system covering movies, anime, and books, built with Python, MySQL, and Streamlit. The app pulls live data from TMDB, AniList/Kaggle, and Open Library, and uses TF-IDF vectorization with cosine similarity to power two recommendation modes: "Find Similar" (genre-filtered content matching for a chosen title) and personalized picks (a weighted taste profile built from the user's own ratings, which sharpens as more ratings are added). Includes search, a "My Ratings" view, and a MySQL-backed ratings system that grows dynamically with user interaction.
+
+Tech stack: Python, MySQL, SQLAlchemy, Streamlit, scikit-learn (TF-IDF, cosine similarity), pandas
